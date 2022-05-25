@@ -1,10 +1,11 @@
 /* Стилизация кнопки */
 .button {
-    width: 189px;
     height: 48px;
+    padding: 15px 15px 14px 15px;
     cursor: pointer;
     border: none;
     border-radius: 8px;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -16,7 +17,6 @@
 .button_primary {
     color: var(--white);
     background: var(--primary);
-    
 }
 
 .button_primary:hover {
@@ -32,7 +32,7 @@
 
 .button_secondary {
     color: var(--white);
-    background: var(--secondary)
+    background: var(--secondary);
 }
 
 .button_secondary:hover {

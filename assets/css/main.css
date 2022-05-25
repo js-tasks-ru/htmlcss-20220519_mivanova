@@ -31,11 +31,6 @@
     --page: #F9FAFC;
 }
 
-* {
-    font-family: 'Inter', sans-serif;
-}
-
-
 html, body {
     height: 100%;
 }
