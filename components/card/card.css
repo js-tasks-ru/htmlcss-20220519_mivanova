@@ -1,8 +1,24 @@
 .card {
-    height: 267px;
+    min-height: 267px;
     background:var(--white);
-    display: inline-block;
     border-radius: 12px;
     font-size: 16px;
     vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 15px;
+}
+
+.card__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--black);
+}
+
+.card__title-padding {
+    padding-bottom: 30px;
 }
