@@ -1,0 +1,8 @@
+.card {
+    height: 267px;
+    background:var(--white);
+    display: inline-block;
+    border-radius: 12px;
+    font-size: 16px;
+    vertical-align: top;
+}
