@@ -4,6 +4,9 @@
 @import '../../components/conteiner/conteiner.css';
 @import '../../components/footer/footer.css';
 @import '../../components/main-part/main-part.css';
+@import '../../components/card/card.css';
+@import '../../04-lection2/01-histogram/histogram.css';
+
 
 :root {
     --white: #ffffff;
@@ -13,6 +16,7 @@
     --purple-1: rgba(80, 40, 198, 1);
     --blue: #374FC7;
     --blue-1: rgba(35, 66, 192, 1);
+    --blue-2: #4263EB;
     --red: #F03D3E;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
@@ -33,4 +37,5 @@
 
 html, body {
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
