@@ -44,26 +44,18 @@
 
 .histogram__chart {
     height: calc(var(--chart-height) * 1px);
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: flex-end;
   }
   
-.histogram__chart div {
+.histogram__chart-column {
     height: calc(var(--value) * 1px);
     background-color: var(--blue-2);
-    min-width: 9px;
+    flex-basis: 9px;
     flex-grow: 1;
     margin: 0 0 0 1px;
     cursor: pointer;
 }
 
-.histogram__chart div:first-child {
+.histogram__chart-column:first-child {
     margin: 0;
-}
-
-.histogram-padding {
-    margin: 80px 26px 75px 26px;
 }
