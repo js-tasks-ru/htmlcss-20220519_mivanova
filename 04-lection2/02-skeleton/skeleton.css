@@ -7,7 +7,7 @@
 }
 
 .skeleton__conteiner {
-    max-width: 100%;
+    flex-grow: 1;
     position: relative;
 }
 
@@ -20,27 +20,27 @@
     margin-bottom: 24px;
 }
 
-.skeleton__titles {
-    display: flex;
-    flex-direction: column;
-}
-
-.skeleton__title {
-    height: 20px;
-    min-width: 172px;
-    background: var(--gradient);
-    margin-bottom: 8px;
-}
-
 .skeleton__avatar {
     background: var(--grey-2);
     width: 64px;
     height: 64px;
     border-radius: 100%;
+    flex-basis: auto;
 }
 
-.skeleton__subtitle {
+.skeleton__line {
+    width: 100%;
     height: 20px;
-    min-width: 257px;
     background: var(--gradient);
 }
+
+.skeleton__line_short {
+    width: 60%;
+    height: 20px;
+    background: var(--gradient);
+    margin-bottom: 8px;
+}
+
+.skeleton__line :first-child {
+    margin-bottom: 8px;
+} 
