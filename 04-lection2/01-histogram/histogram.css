@@ -5,6 +5,7 @@
     background: var(--white);
     border-radius: 8px;
     border: 1px solid #ACB5BD;
+    margin: 80px 26px 75px 26px;
 }
 
 .histogram__conteiner {
@@ -44,8 +45,12 @@
 
 .histogram__chart {
     height: calc(var(--chart-height) * 1px);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: flex-end;
-  }
+}
   
 .histogram__chart-column {
     height: calc(var(--value) * 1px);

@@ -17,8 +17,5 @@
     line-height: 25px;
     text-align: center;
     color: var(--black);
-}
-
-.card__title-padding {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
