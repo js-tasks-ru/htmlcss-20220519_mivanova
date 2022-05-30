@@ -1,0 +1,46 @@
+.skeleton {
+    max-width: 579px;
+    padding: 24px 40px 32px 24px;
+    background: var(--white);
+    border-radius: 8px;
+    border: 1px solid #ACB5BD;
+}
+
+.skeleton__conteiner {
+    max-width: 100%;
+    position: relative;
+}
+
+.skeleton__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.skeleton__titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.skeleton__title {
+    height: 20px;
+    min-width: 172px;
+    background: var(--gradient);
+    margin-bottom: 8px;
+}
+
+.skeleton__avatar {
+    background: var(--grey-2);
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+}
+
+.skeleton__subtitle {
+    height: 20px;
+    min-width: 257px;
+    background: var(--gradient);
+}
