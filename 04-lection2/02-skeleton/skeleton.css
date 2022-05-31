@@ -36,11 +36,4 @@
 
 .skeleton__line_short {
     width: 60%;
-    height: 20px;
-    background: var(--gradient);
-    margin-bottom: 8px;
 }
-
-.skeleton__line :first-child {
-    margin-bottom: 8px;
-} 
