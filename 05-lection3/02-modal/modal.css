@@ -1,0 +1,58 @@
+.modal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.modal__conteiner {
+    margin: auto;
+}
+
+.modal__form {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background: var(--grey-6);
+}
+
+.modal__window {
+    display: none;
+    padding: 15px 40px 30px 40px;
+    border-radius: 8px;
+    background: var(--white);
+    max-width: 348px;
+    max-height: 294px;
+}
+
+.modal__close {
+    display: flex;
+    cursor: pointer;
+    left: 360px;
+    position: relative;
+}
+
+.modal__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 15px;
+    color: #334D6E;
+}
+
+.modal__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    /* Gray 4 */
+    
+    color: var(--grey-4);
+}
