@@ -1,0 +1,10 @@
+.preview {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 56px;
+    height: 100%;
+}
+
+.preview__conteiner {
+    padding: 0 156px;
+}
