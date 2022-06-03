@@ -1,7 +1,15 @@
-.modal {
+.conteiner {
+    margin: auto;
+}
+
+body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100%;
+}
+
+.modal {
+    display: none;
 }
 
 .modal__conteiner {
@@ -13,10 +21,10 @@
     justify-items: center;
     align-items: center;
     background: var(--grey-6);
+    height: 100%;
 }
 
 .modal__window {
-    display: none;
     padding: 15px 40px 30px 40px;
     border-radius: 8px;
     background: var(--white);
