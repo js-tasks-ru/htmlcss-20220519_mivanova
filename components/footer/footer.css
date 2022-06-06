@@ -7,9 +7,14 @@
 
 .footer__header {
     font-weight: 500;
-    font-size: 38px;
-    line-height: 48px;
     margin: 0 0 32px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
 }
 
 .footer__text {

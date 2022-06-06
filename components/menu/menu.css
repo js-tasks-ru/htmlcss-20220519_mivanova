@@ -1,0 +1,25 @@
+.menu {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    display: grid;
+    grid-template-rows: 40px repeat(7, 28px);
+    width: 229px;
+}
+
+.menu__item {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+}
+
+.menu__item_header {
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--total_black);
+}
+
+.menu__item_notification {
+    color: var(--notification);
+}
