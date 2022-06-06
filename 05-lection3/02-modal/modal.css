@@ -10,26 +10,32 @@ body {
 
 .modal {
     display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--grey-7);
+    min-width: 508px;
+    min-height: 381px;
+}
+
+.modal__form {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 448px;
+    min-height: 294px;
 }
 
 .modal__conteiner {
     margin: auto;
 }
 
-.modal__form {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    background: var(--grey-6);
-    height: 100%;
-}
-
 .modal__window {
     padding: 15px 40px 30px 40px;
     border-radius: 8px;
     background: var(--white);
-    max-width: 348px;
-    max-height: 294px;
 }
 
 .modal__close {
