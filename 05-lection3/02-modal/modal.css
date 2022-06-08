@@ -1,16 +1,16 @@
 .modal {
     display: none;
     position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background: var(--grey-7);
-    min-width: 508px;
-    min-height: 381px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    background-color: hsla(0, 0%, 77%, 1)
 }
 
 .modal__form {
-    position: fixed;
+    position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -18,12 +18,9 @@
     min-height: 294px;
 }
 
-.modal__conteiner {
-    margin: auto;
-}
-
 .modal__window {
-    padding: 15px 40px 30px 40px;
+    max-width: 428px;
+    padding: 16px 40px 30px 40px;
     border-radius: 8px;
     background: var(--white);
 }
@@ -31,8 +28,9 @@
 .modal__close {
     display: flex;
     cursor: pointer;
-    left: 360px;
-    position: relative;
+    top: 16px;
+    right: 16px;
+    position: absolute;
 }
 
 .modal__title {
@@ -53,10 +51,5 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
-    
-    
-    /* Gray 4 */
-    
     color: var(--grey-4);
 }
