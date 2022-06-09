@@ -6,6 +6,30 @@
         <link rel="stylesheet" href="./toggler.css">
     </head>
     <body>
-
+        <section style="padding: 20px;">
+            <div style="display: flex; flex-direction: column; gap: 16px;">
+                <label class="toggle">
+                    <input class="toggle__input" type="checkbox">
+                    <div class="toggle__wrapper">
+                      <div class="toggle__control"></div>
+                      <span class="toggle__title">Off</span>
+                    </div>
+                  </label>
+                  <label class="toggle">
+                    <input class="toggle__input" type="checkbox" checked>
+                    <div class="toggle__wrapper">
+                      <div class="toggle__control"></div>
+                      <span class="toggle__title">On</span>
+                    </div>
+                  </label>
+                  <label class="toggle">
+                    <input class="toggle__input" type="checkbox" disabled>
+                    <div class="toggle__wrapper">
+                      <div class="toggle__control"></div>
+                      <span class="toggle__title">Disabled</span>
+                    </div>
+                  </label>
+            </div>
+        </section>
     </body>
 </html>
