@@ -6,6 +6,6 @@
 @media (max-width: 768px) {
     .conteiner {
         max-width: 375px;
-        margin: 0 auto;
+        padding-top: 15px;
     }
 }

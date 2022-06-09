@@ -24,10 +24,12 @@
         font-weight: 400;
         font-size: 28px;
         line-height: 38px;
+        margin-bottom: 69px;
     }
 
     .header {
-        background: var(--page);
-        padding: 16px 0;
+        background: var(--white);
+        padding: 0 16px;
+        border-bottom: 1px solid var(--grey-2);
     }
 }
