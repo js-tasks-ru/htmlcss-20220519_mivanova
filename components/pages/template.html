@@ -2,6 +2,7 @@
 <!-- Страница компонента -->
 <html lang="ru">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./pages.css">
         <link rel="stylesheet" href="../header/header.css">
@@ -12,7 +13,15 @@
     </head>
     <body>
         <div class="page">
-            <div class="header"></div>
+            <div class="header">
+                <div class="header__logo">
+                    <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="1" width="30" height="30" fill="#212429"/>
+                        <rect x="38" width="32" height="32" rx="16" fill="#212429"/>
+                        <path d="M78 0L110 32H78V0Z" fill="#212429"/>
+                    </svg>
+                </div>         
+            </div>
             <div class="preview__conteiner">
                 <div class="preview">
                     <div class="menu">
@@ -41,11 +50,6 @@
                     </div>
                 </div>
             </div>
-            <footer class="footer">
-                <div class="conteiner">
-                    <p class="footer__header">Reusable component library</p>
-                </div>
-            </footer>
         </div>
     </body>
 </html>

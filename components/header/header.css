@@ -27,7 +27,7 @@
     }
 
     .header {
-        background: var(--white);
-        padding: 16px 0 69px 16px;
+        background: var(--page);
+        padding: 16px 0;
     }
 }

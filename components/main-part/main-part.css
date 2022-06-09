@@ -12,6 +12,11 @@
 
 .main-part__card {
     flex-basis: 350px;
+    align-items: center;
+}
+
+.main-part__card_top {
+    margin: auto;
 }
 
 @media (max-width: 768px) {

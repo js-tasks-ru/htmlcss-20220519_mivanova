@@ -8,3 +8,9 @@
 .preview__conteiner {
     padding: 0 156px;
 }
+
+@media (max-width: 768px) {
+    .preview__conteiner {
+        padding: 0;
+    }
+}
