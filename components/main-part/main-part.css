@@ -11,6 +11,27 @@
 }
 
 .main-part__card {
-    /* width: calc(100% / 3 - 30px); */
     flex-basis: 350px;
+    align-items: center;
+}
+
+.main-part__card_top {
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .main-part__inner {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 16px;
+    }
+
+    .main-part__card {
+        flex-basis: 164px;
+    }
+
+    .main-part {
+        display: flex;
+        padding: 22px 0;
+    }
 }

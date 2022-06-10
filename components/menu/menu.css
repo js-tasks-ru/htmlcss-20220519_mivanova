@@ -23,3 +23,9 @@
 .menu__item_notification {
     color: var(--notification);
 }
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
