@@ -30,6 +30,5 @@
     .header {
         background: var(--white);
         padding: 0 16px;
-        border-bottom: 1px solid var(--grey-2);
     }
 }
