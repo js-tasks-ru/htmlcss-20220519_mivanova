@@ -4,7 +4,7 @@
 }
 
 .tabs__input {
-    appearance: none;
+    clip: rect(0,0,0,0);
     position: absolute;
 }
 
