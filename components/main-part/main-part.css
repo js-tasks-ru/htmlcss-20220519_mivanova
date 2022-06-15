@@ -1,7 +1,7 @@
 .main-part {
     left: 0px;
     background: var(--page);
-    padding: 68px 0;
+    padding: 0 68px 0;
 }
 
 .main-part__inner {
@@ -32,6 +32,6 @@
 
     .main-part {
         display: flex;
-        padding: 22px 0;
+        padding: 0;
     }
 }
