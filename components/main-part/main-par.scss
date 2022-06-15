@@ -1,0 +1,35 @@
+.main-part {
+    left: 0px;
+    background: var(--page);
+    padding: 68px 0;
+
+    @media (max-width: 768px) {
+        display: flex;
+        padding: 22px 0;
+    }
+
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        @media (max-width: 768px) {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 16px;
+        }
+    }
+
+    &__card {
+        flex-basis: 350px;
+        align-items: center;
+
+        @media (max-width: 768px) {
+            flex-basis: 164px;
+        }
+    }
+
+    &__card_top {
+        margin: auto;
+    }
+}
