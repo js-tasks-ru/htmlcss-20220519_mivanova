@@ -1,0 +1,11 @@
+.page {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-gap: 36px;
+    height: 100%;
+    background: var(--page);
+
+    @media (max-width: 768px) {
+        grid-gap: 0;
+    }
+}

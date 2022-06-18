@@ -1,0 +1,14 @@
+.preview {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 56px;
+    height: 100%;
+
+    &__conteiner {
+        padding: 0 156px;
+
+        @media (max-width: 768px) {
+            padding: 0;
+        }
+    }
+}
